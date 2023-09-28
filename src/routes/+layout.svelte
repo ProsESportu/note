@@ -23,7 +23,7 @@
         <svelte:fragment slot="trail">
             <LightSwitch />
             {#if $page.data.session?.user}
-                <p>Signed in as {$page.data.session.user.email}</p>
+                <!-- <p>Signed in as {$page.data.session.user.email}</p> -->
                 <button
                     type="button"
                     class="btn variant-outline"
