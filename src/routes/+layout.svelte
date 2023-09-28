@@ -19,7 +19,7 @@
 <AppShell>
     <slot />
     <AppBar slot="header">
-        <p>Notes</p>
+        <p slot="lead">Notes</p>
         <svelte:fragment slot="trail">
             <LightSwitch />
             {#if $page.data.session?.user}
